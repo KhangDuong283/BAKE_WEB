@@ -1,0 +1,58 @@
+
+/* ------------------------------------------------------ */
+/* SERVICES */
+/* ------------------------------------------------------ */
+.services {
+    text-align: center;
+    background-image: url("../IMG/s1.jpg");
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.services .main__title {
+    color: white;
+}
+
+.services__content {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.services__items i {
+    font-size: 3.75rem;
+    width: 105px;
+    height: 105px;
+    border: 1px solid #4e2a84;
+    border-radius: 50%;
+    color: #4e2a84;
+    background-color: white;
+    line-height: 105px;
+    transition: all 0.2s 0s linear;
+}
+
+.services__items:hover i {
+    color: #ff0e83;
+}
+
+.services__items h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.services__items p {
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.services__items button {
+    margin: 1rem 0 3rem 0;
+    padding: 12px 27px;
+    border-width: 2px;
+}
+
+.services__items buttom:hover {
+    border-width: 2px;
+}

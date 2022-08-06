@@ -1,0 +1,25 @@
+
+/* ------------------------------------------------------ */
+/* TEAM */
+/* ------------------------------------------------------ */
+.team {
+    background-color: #4e2a84;
+}
+
+.team__items img {
+    display: block;
+    width: 100%;
+}
+
+.team .main__title {
+    color: white;
+    padding-top: 70px;
+}
+
+.team__content {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px 30px;
+}

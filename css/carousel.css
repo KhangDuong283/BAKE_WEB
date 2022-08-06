@@ -1,0 +1,91 @@
+
+/* ------------------------------------------------------ */
+/* CAROUSEL */
+/* ------------------------------------------------------ */
+.carousel {
+    background-image: url("../IMG/b3.jpg");
+    height: 50rem;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    /* CANH THẺ CON CHIỀU NGANG */
+    align-items: center;
+    /* CANH THẺ CON CHIỀU DỌC */
+}
+
+.carousel__content h1 {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+}
+
+.carousel__content p {
+    font-size: 1.1rem;
+    padding: 1.43rem;
+}
+
+/* ------------------------------------------------------ */
+/* INTRO  */
+/* ------------------------------------------------------ */
+.intro {
+    display: grid;
+    /* grid-template-columns: 25% 25% 25% 25%;
+grid-template-columns: repeat(4.25%); */
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.intro__ab1 {
+    /* grid-column: 2 / 4; */
+    grid-column: 2 / span 2;
+}
+
+.intro__bake {
+    grid-column: 1 / span 2;
+}
+
+.intro__ab4 {
+    grid-column: 3 / span 2;
+}
+
+.intro__items img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.intro__items {
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.intro__items h3 {
+    margin-bottom: 1.2rem;
+    padding: 0 2rem;
+}
+
+.intro__items p {
+    padding: 0 2rem;
+    line-height: 1.7;
+}
+
+.intro .intro__items:first-child,
+.intro .intro__items:nth-child(8) {
+    background-color: #4e2a84;
+}
+
+.intro .intro__items:nth-child(3) {
+    background-color: #ff0e83;
+}
+
+.intro .intro__items:nth-child(4) {
+    background-color: #ed6498;
+}
+
+.intro .intro__items:nth-child(6) {
+    background-color: #836eaa;
+}
