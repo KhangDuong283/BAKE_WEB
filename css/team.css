@@ -1,14 +1,8 @@
-
 /* ------------------------------------------------------ */
 /* TEAM */
 /* ------------------------------------------------------ */
 .team {
     background-color: #4e2a84;
-}
-
-.team__items img {
-    display: block;
-    width: 100%;
 }
 
 .team .main__title {
@@ -22,4 +16,90 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px 30px;
+}
+
+.team__items{
+    position: relative;
+    color: white;
+    line-height: 28px;
+}
+
+.team__items img {
+    display: block;
+    width: 100%;
+}
+
+.team__items h3 {
+    font-size: 1.3rem;
+}
+
+.team__items p {
+    font-size: 0.875rem;
+}
+
+.team__title {
+    background-color: #ff0e83;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+
+    opacity: 1;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+.team__items:hover .team__title {
+    opacity: 0;
+}
+
+.team__detail {
+    background-color: #00000099;
+    color: white;
+    padding: 70px 10px 10px 30px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+.team__items:hover .team__detail:hover {
+    opacity: 1;
+}
+
+.team__detail h3 {
+    color: #ff0e83;
+    padding-bottom: 12px;
+}
+
+.team__detail p {
+    padding-bottom: 12px;
+}
+
+.team__socials i {
+    width: 40px;
+    padding: 10px;
+    text-align: center;
+    margin: 12px 6px;
+    border: 1px solid #ffffff80;
+
+    transition: all 0.15s;
+    cursor: pointer;
+}
+
+.team__socials i:hover {
+    border: 1px solid #ff0e83;
+    color: #ff0e83;
 }
