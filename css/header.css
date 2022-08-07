@@ -12,10 +12,11 @@ header {
 .header__content {
     width: 70%;
     margin: 0 auto;
+    padding: 1rem 0;
+
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 1rem 0;
 }
 
 .header__content p {
@@ -29,7 +30,7 @@ header {
 
 .header__content li {
     display: inline;
-    margin: 1rem;
+    margin: 0 1rem;
 }
 
 .header__content a {
@@ -47,10 +48,10 @@ transition-timing-function: linear; */
     transition: all 0.15s 0s linear;
 }
 
-.header__content a:hover {
+.header__content ul a:hover {
     color: #ff0e83;
 }
 
-.header__content .active a {
+.header__content ul .active a {
     color: #ff0e83;
 }
